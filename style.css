@@ -22,3 +22,26 @@ body {
     width: 100%;
     font-size: 32px;
 }
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+}
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+.aba-conteudo-titulo-principal{ 
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{ 
+    text-align: center;
+    color: var(--verde); text-transform: uppercase;
+}
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
